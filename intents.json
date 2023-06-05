@@ -1,0 +1,157 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["Hello! what can i do for you?","Hey! how can i help you"],
+             "context_set":""
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","good day","bye","cao","see ya"],
+             "responses":["Have a nice day","Goodbye"],
+             "context_set":""
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name","tell me about yourself"],
+             "responses":["Hello, I'm Hup, your medical chatbot. I'm here to provide you with  health information. How can I assist you today?","I'm Hup, an AI-powered medical chatbot. My purpose is to help you find answers to your health-related questions. How can I support you?"],
+             "context_set":""
+            },
+            {
+                "tag": "thanks",
+                "patterns": [
+                    "Thanks",
+                    "Thank you",
+                    "That's helpful",
+                    "Awesome, thanks",
+                    "Thanks for helping me"
+                ],
+                "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure"
+                ],
+                "context": ""
+            },
+            
+            {
+                "tag": "jokes",
+                "patterns": [
+                    "Tell me a joke",
+                    "Joke",
+                    "Make me laugh"
+                ],
+                "responses": [
+                    "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                    "I ate a clock yesterday, it was very time-consuming",
+                    "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                    "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                    "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                    "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                    "What do you call a snowman with a suntan? A puddle.",
+                    "How does a penguin build a house? Igloos it together",
+                    "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
+                    "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+                    "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                ],
+                "context": ""
+            },
+            {
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["I'm not a doctor, but based on your symptoms, it's possible that you may be experiencing a common cold or a respiratory infection. These symptoms can also be associated with other conditions, such as the flu or allergies. It's important to consult a healthcare professional for an accurate diagnosis and appropriate treatment. \n Would you like general information regarding treatment of common cold? "],
+             "context_set":"commoncold"
+            },
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"],
+             "responses":["I'm not a doctor, but based on your symptoms, it's possible that you may be experiencing a fever. Having a low-grade fever can be a symptom of various conditions, including viral infections like the common cold or flu. Would you like information on treatments or consultation."],
+             "context_set":"fever"
+            },
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["The mentioned symptoms can be potential signs of diabetes, specifically type 1 diabetes or, in some cases, type 2 diabetes. These symptoms are often associated with high blood sugar levels and inadequate insulin action in the body. If you've been experiencing these symptoms for a while now, I strongly recommend scheduling an appointment with a healthcare professional. \n Would you like some general advice/ tips to manage diabetes? "],
+             "context_set":"diabetes"
+            },
+            {
+             "tag":"Depression symptoms",
+             "patterns":["Hopeless outlook",
+             "Lost interest",
+             "Increased fatigue",
+             "sleep problem",
+             "Anxiety",
+             "change in weight",
+             "Looking at death"],
+             "responses":["These symptoms can be indicative of various mental health conditions, such as depression or anxiety. It's important to remember that I am a bot and not a substitute for professional help, but I can offer some general guidance."],
+             "context_set":"depression"
+            },
+            {
+             "tag":"Asthma symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["Coughing, tightness in the chest, shortness of breath are potential symtoms of asthma. If you suspect you have asthma, it's important to consult a healthcare professional for an accurate diagnosis and appropriate management. Would you like some general guidance and OTC medications that may help you? "],
+             "context_set":"asthma"
+            },
+            {
+             "tag":"common cold prevention",
+             "patterns":["yes","treatment","What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["Here are some medicines used to treat common cold : Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max\n Preventions that you must follow :Wash your hands, Avoid touching your face, Clean frequently used surfaces,Use hand sanitizers \nSuggested foods:Garlic,Vitamin C containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup. \n If your symptoms worsen, persist for an extended period, or if you have underlying health conditions, it's advisable to consult a healthcare professional for further evaluation and guidance."],
+             "context_filter":"commoncold"
+            },
+            {
+             "tag":"fever prevention",
+             "patterns":["yes","treatment","What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+             "responses":["Here are some medicines to help you with your fever : acetaminophen ,ibuprofen, aspirin, Crocin Cold & Flu Max\n Prevention that you must follow :Wash your hands, Cover your mouth when you cough and your nose when you sneeze, Clean frequently used surfaces, Avoid sharing cups, glasses, and eating utensils with other people.\n Suggested foods:Garlic, Vitamin C containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup. \nIf your fever persists for more than a few days, is accompanied by severe symptoms, or if you have concerns, it's advisable to consult a healthcare professional for further evaluation and guidance."],
+             "context_filter":"fever"
+            },
+            {
+             "tag":"diabetes prevention",
+             "patterns":["yes","treatment","What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+             "responses":["Please consult your doctor before taking these medications. Insulin , Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor \nPrevention that you must follow :Cut Sugar and Refined Carbs From Your Diet, Work Out Regularly, Drink Water as Your Primary Beverage, Lose Weight If You’re Overweight or Obese, Quit Smoking, Follow a Very-Low-Carb Diet, Watch Portion Sizes. \nSuggested Foods:Leafy greens, Avocados, Eggs"],
+             "context_filter":"diabetes"
+            },
+            {
+             "tag":"depression prevention",
+             "patterns":["yes","treatment","What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+             "responses":["Here are some medications that may help you, please consult a medical professional for accurate advice :  brexpiprazole, quetiapine,olanzapine. \nPrevention that you must follow :Exercise regularly,Cut back on social media time, Drink Water as Your Primary Beverage, Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet. \nSuggested foods:Get Enough Vitamin D, Include Omega-3 Fatty Acids, Beans and legumes"],
+             "context_filter":"depression"
+            },
+            {
+             "tag":"asthma prevention",
+             "patterns":["yes","treatment","What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+             "responses":["Common medications for asthmatic patients : epinephrine, anticholinergic, Proair HFA \nPrevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens, Avoid Smoke of Any Type. \nSuggested foods:carrots, juice,eggs, broccoli, cantaloupe, milk. \nPlease note that the specific medications and treatment plan for asthma can vary depending on individual factors and the severity of the condition. It's essential to work closely with a healthcare professional who can evaluate your specific situation, provide an accurate diagnosis, and recommend the most appropriate treatment options for you."],
+             "context_filter":"asthma"
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["consultation","who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."],
+             "context_set":""
+            }
+]}
+        
