@@ -6,7 +6,7 @@ This model should work fine on any intents.json, and can be tuned by adjusting t
 
 By leveraging NLP, the chatbot can effectively process and analyze natural language inputs from users. It uses techniques such as tokenization, stemming and bag of words to extract meaning from the messages it receives. In addition it sets the context to whatever condition the user has been diagnosed with so they can ask the corresponding treatment for that condition.
 
-The UI is built using a Flask.
+The UI is built using Flask.
 
 
 To run this project, clone the repo and install the required dependencies.
