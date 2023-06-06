@@ -13,5 +13,8 @@ To run this project, clone the repo and install the required dependencies.
 The chatbot can be run on command line using chat.py or as a flask app using app.py.
 
 ![image](https://github.com/Karrtt/Chatbot-/assets/79457820/2e3ddf04-3b5d-4cab-8093-2eb65f697bb8)
-![image](https://github.com/Karrtt/Chatbot-/assets/79457820/05a02533-0065-4d01-8c3b-f0356e14c675)
+----
+![image](https://github.com/Karrtt/Chatbot-/assets/79457820/b2ced11d-719d-427d-9af0-ea4233a49254)
+----
 ![image](https://github.com/Karrtt/Chatbot-/assets/79457820/0906cf2f-447f-4374-80e7-cb7e81e78799)
+----
