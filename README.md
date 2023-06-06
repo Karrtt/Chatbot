@@ -1,4 +1,4 @@
-# Chatbot-
+# Chatbot
 
 This chatbot is a conversational agent created using NLP techniques and PyTorch, a powerful deep learning framework. It has been trained using a dataset called "intents.json" to understand and respond to user inputs accurately.
 The intents file in this project contains information related to few medical conditions and it can be changed according to the required behaviour of the chatbot.
